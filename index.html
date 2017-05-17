@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<!-- begin:css -->
+<!-- end:css -->
+<style media="screen">
+  .explodir{
+    height: auto;
+    background-color: red;
+    display: inline-block;
+  }
+</style>
+  </head>
+  <body>
+
+    <div class="container">
+    <div class="jumbotron">
+
+      <h1>Testando o grunt-link-html com Grunt</h1>
+      <p>O objetivo deste arquivo é testar a inserção dos links dos arquivos
+        .css e .js dentro dos .html de seu projeto.
+      </p>
+
+      <button class="btn btn-danger" type="button" name="button">Vermelho</button>
+      <button class="btn btn-warning" type="button" name="button">Amarelo</button>
+      <button class="btn btn-primary" type="button" name="button">Azul</button>
+      <br>
+      <br>
+      <span class="explodir"><i class="fa fa-info-circle fa-4x">Vou explodir!</i></span>
+    </div>
+  </div>
+
+<!-- begin:js -->
+<!-- end:js -->
+
+<script type="text/javascript">
+  $('.explodir').click(function (){
+    $('.explodir').toggle( "explode" );
+  });
+
+</script>
+  </body>
+</html>
