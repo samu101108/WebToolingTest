@@ -1,0 +1,23 @@
+{
+  "name": "grunt_link_lab",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Barbosa S. A. <samu101108@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/samu101108/WebToolingTest",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery-ui": "^1.12.1"
+  }
+}
